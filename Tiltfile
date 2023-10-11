@@ -23,4 +23,4 @@ k8s_custom_deploy(
 k8s_resource(NAME, port_forwards=["8080:8080"],
             extra_pod_selectors=[{'carto.run/workload-name': 'weatherforecast-steeltoe', 'app.kubernetes.io/component': 'run'}])
 
-allow_k8s_contexts('<context>') # update the context
+allow_k8s_contexts('gke_falconwings-vmware_europe-west2_edm-tap-01') # update the context
