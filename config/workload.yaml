@@ -19,6 +19,6 @@ spec:
       apps.tanzu.vmware.com/pipeline: test-dotnet
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/edmundoni/dotnet-demo-jm
       ref:
         branch: main
